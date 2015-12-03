@@ -12,6 +12,11 @@ namespace PurgeTFS
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("----------------------------");
+			Console.WriteLine("     TFDestroyHelper");
+			Console.WriteLine("----------------------------");
+			Console.WriteLine("A fine product by Peder Rice");
+
 			if(args.Length != 3)
 			{
 				Console.Error.WriteLine("Must specify TFS path and valid date");
